@@ -496,7 +496,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "Innovative and performance-driven Entrepreneur with a passion for technology and business. 4+ years of experience in most aspects of business, development, operations, finance, and analytics. In my opinion, coding and analytics are the most empowering skills you can learn. Because it provides the ability to create anything that comes to mind with only a computer.",
+    "Innovative and performance-driven Entrepreneur with a passion for technology and business. 4+ years of experience in most aspects of business, development, operations, finance, and analytics.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -518,22 +518,33 @@ const experience = {
           company: "Alura.io",
           company_url: "https://www.alura.io/",
           logo_path: "alura.png",
-          duration: "Sep 2018 - PRESENT",
+          duration: "Sep 2019 - PRESENT",
           location: "Oslo, Norway",
           description:
             "Build a profitable SaaS company with a co-student, during our studies. The service optimize e-commerce sellers listings and products using machine learning. 8.000+ customers to date.",
           color: "#3C61E2",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          title: "Digital Business Developer",
+          company: "Kommunalbanken",
+          company_url: "https://www.kbn.com/",
+          logo_path: "kbn.png",
+          duration: "Aug 2017 - May 2020",
+          location: "Oslo, Norway",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
+            "Collaborate with business owners to define the business strategy and collaborate with the Agile development team for its implementation. E.g. implementation of business Intelligence, automation of financial  reports, created risk models and customer analysis.",
+          color: "#043D5C",
+        },
+        {
+          title: "PR Representative",
+          company: "BI Norwegian Business School",
+          company_url: "https://www.bi.no/",
+          logo_path: "bi.png",
+          duration: "Aug 2017 - May 2020",
+          location: "Oslo, Norway",
+          description:
+            "Collaborate with business owners to define the business strategy and collaborate with the Agile development team for its implementation. E.g. implementation of business Intelligence, automation of financial  reports, created risk models and customer analysis.",
+          color: "#056CB4",
         },
       ],
     },
@@ -541,27 +552,15 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
+          title: "Analyst Internship",
+          company: "Malling & Co",
           company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+          logo_path: "malling.png",
+          duration: "Aug 2017 - Nov 2017",
+          location: "Oslo, Norway",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
+            "Collected data and developed a model of the Norwegian commercial property transaction market.",
+          color: "#766341",
         },
       ],
     },
@@ -569,60 +568,48 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
+          title: "Class President",
+          company: "Class of 2018, M.Sc. in Business Analytics",
           company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          logo_path: "bi.png",
+          duration: "Aug 2018 - Jun 2020",
+          location: "Oslo, Norway",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
+            "In charge of improving the visibility of the program and commitment of BA students. Furthermore, creating a platform for networking and knowledge exchange opportunities between students and businesses.",
+          color: "#056CB4",
         },
         {
-          title: "DataCamp Student Partner",
-          company: "DataCamp",
-          company_url: "https://www.DataCamp.com/",
-          logo_path: "DataCamp_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
+          title: "CFO",
+          company: "Happy Norwegian",
+          company_url: "https://happynorwegian.no/",
+          logo_path: "hn.png",
+          duration: "Des 2017 - Aug 2019",
+          location: "Oslo, Norway",
           description:
-            "DataCamp Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
+            "My tasks include financial planning, management of financial risks, record-keeping, and financial reporting.",
+          color: "#E97F43",
         },
         {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
+          title: "President, Student Union",
+          company: "Kollektivet",
           company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
+          logo_path: "kollektivet.png",
+          duration: "Mar 2017 - Apr 2018",
+          location: "Oslo, Norway",
           description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
+            "My responsibility for this program was to create and hold eight larger events per year, leading a team of six people.",
           color: "#000000",
         },
         {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
+          title: "Volunteer Staff",
+          company: "Samfunnet Bislet, Oslo Mets",
+          company_url: "https://www.samfunnetbislet.no/",
+          logo_path: "samf.png",
+          duration: "Des 2016 - Jun 2018",
+          location: "Oslo, Norway",
           description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating peoper documentation for project.",
-          color: "#181717",
+            "Samfunnet Bislet offers concerts, Wednesday quizzes, stand-up, StorySLAM, karaoke, game night, improshov, big band karaoke and much more.",
+          color: "#A7262A",
         },
       ],
     },
@@ -633,7 +620,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. In my opinion, coding and analytics are the most empowering skills you can learn. Because it provides the ability to create anything that comes to mind with only a computer.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -641,28 +628,28 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "njw.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Full Stack Development, Business, Finance, ML and AI.",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://ashutoshhathidara.wordpress.com",
-    avatar_image_path: "blogs_image.svg",
-  },
+  // blogSection: {
+  //   title: 'Blogs',
+  //   subtitle:
+  //     'For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.',
+  //   link: 'https://ashutoshhathidara.wordpress.com',
+  //   avatar_image_path: 'blogs_image.svg'
+  // },
   addressSection: {
-    title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+    title: "Contact",
+    subtitle: "Njaal.Wiik@gmail.com",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link:
+      "https://www.google.no/maps/place/Oslo/@59.8939021,10.5049442,10z/data=!3m1!4b1!4m5!3m4!1s0x46416e61f267f039:0x7e92605fd3231e9a!8m2!3d59.9138688!4d10.7522454",
   },
-  phoneSection: {
-    title: "Phone Number",
-    subtitle: "+91 8320758513",
-  },
+  // phoneSection: {
+  //   title: 'Phone Number',
+  //   subtitle: '+91 8320758513'
+  // }
 };
 
 export {
