@@ -456,7 +456,7 @@
                   style: { backgroundColor: "#000000", color: "#F7DF1E" },
                 },
                 {
-                  skillName: "Flutter",
+                  skillName: "TypeScript",
                   fontAwesomeClassname: "simple-icons:typescript",
                   style: { color: "#02569B" },
                 },
@@ -466,7 +466,7 @@
                   style: { color: "#61DAFB" },
                 },
                 {
-                  skillName: "Gatsby",
+                  skillName: "Redux",
                   fontAwesomeClassname: "simple-icons:redux",
                   style: { color: "#663399" },
                 },
@@ -481,7 +481,7 @@
                   style: { color: "#CB3837" },
                 },
                 {
-                  skillName: "Yarn",
+                  skillName: "Jest",
                   fontAwesomeClassname: "simple-icons:jest",
                   style: { color: "#2C8EBB" },
                 },
@@ -6775,4 +6775,4 @@
   ]),
   [[67, 1, 2]],
 ]);
-//# sourceMappingURL=main.38cc9dc9.chunk.js.map
+//# sourceMappingURL=main.1287841e.chunk.js.map

@@ -97,7 +97,7 @@ const skills = {
           },
         },
         {
-          skillName: "Flutter",
+          skillName: "TypeScript",
           fontAwesomeClassname: "simple-icons:typescript",
           style: {
             color: "#02569B",
@@ -111,7 +111,7 @@ const skills = {
           },
         },
         {
-          skillName: "Gatsby",
+          skillName: "Redux",
           fontAwesomeClassname: "simple-icons:redux",
           style: {
             color: "#663399",
@@ -132,7 +132,7 @@ const skills = {
           },
         },
         {
-          skillName: "Yarn",
+          skillName: "Jest",
           fontAwesomeClassname: "simple-icons:jest",
           style: {
             color: "#2C8EBB",
