@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "556694ab1dd9eec2fc9b3eb82ca01c48",
+    "revision": "227d327aca7f6b1531644656df432950",
     "url": "./index.html"
   },
   {
-    "revision": "8b0741b492bb3a1aff85",
+    "revision": "d57e275fe90bed32d629",
     "url": "./static/css/main.c8382f0c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.c2f79131.chunk.js"
   },
   {
-    "revision": "8b0741b492bb3a1aff85",
-    "url": "./static/js/main.3cd4d4c8.chunk.js"
+    "revision": "d57e275fe90bed32d629",
+    "url": "./static/js/main.8ef7b5ff.chunk.js"
   },
   {
     "revision": "dfaa76a419d61eef0450",
@@ -252,8 +252,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/muffito_logo.db6c1c0d.png"
   },
   {
-    "revision": "a3b38c649fc533f0db753ac2226adbe7",
-    "url": "./static/media/njw.a3b38c64.png"
+    "revision": "b44de849b71da3e00c7289835b80c010",
+    "url": "./static/media/njw.b44de849.png"
   },
   {
     "revision": "cd7077f7a08bffdb11e13093424e13fd",
