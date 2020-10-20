@@ -383,7 +383,7 @@ const certifications = {
     {
       title: "MERN Stack Front To Back: Full Stack React, Redux & Node.js",
       subtitle: "- Brad Traversy",
-      logo_path: "traversy.jpeg",
+      logo_path: "traversy.png",
       certificate_link:
         "https://www.udemy.com/certificate/UC-530b50ef-f6ee-44db-b122-bee84633f6d3/",
       alt_name: "Traversy Media",
@@ -396,7 +396,7 @@ const certifications = {
       certificate_link:
         "https://coursera.org/share/c374484fc64a689a0ca040f5ed6d8008",
       alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+      color_code: "#fafafa",
     },
     {
       title: "Machine Learning with TensorFlow on Google Cloud Platform",
@@ -426,15 +426,6 @@ const certifications = {
       color_code: "#f9fafa",
     },
     {
-      title: "Google Analytics for Beginners",
-      subtitle: "- Google Analytics",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://analytics.google.com/analytics/academy/certificate/vx-OT3h-TB2Z5tLlMuPLlg",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
       title: "Programming Foundations with JavaScript, HTML and CSS",
       subtitle: "- Susan H. Rodger",
       logo_path: "duke.jpeg",
@@ -442,6 +433,15 @@ const certifications = {
         "https://coursera.org/share/5f1598dab58d2a87c77eea142a67b546",
       alt_name: "GCP",
       color_code: "#02529B",
+    },
+    {
+      title: "Google Analytics for Beginners",
+      subtitle: "- Google Analytics",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://analytics.google.com/analytics/academy/certificate/vx-OT3h-TB2Z5tLlMuPLlg",
+      alt_name: "Google",
+      color_code: "#0C9D5899",
     },
     {
       title: "Introduction to Deep Learning in Python",

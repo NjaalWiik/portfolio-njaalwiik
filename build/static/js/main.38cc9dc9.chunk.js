@@ -675,7 +675,7 @@
               title:
                 "MERN Stack Front To Back: Full Stack React, Redux & Node.js",
               subtitle: "- Brad Traversy",
-              logo_path: "traversy.jpeg",
+              logo_path: "traversy.png",
               certificate_link:
                 "https://www.udemy.com/certificate/UC-530b50ef-f6ee-44db-b122-bee84633f6d3/",
               alt_name: "Traversy Media",
@@ -688,7 +688,7 @@
               certificate_link:
                 "https://coursera.org/share/c374484fc64a689a0ca040f5ed6d8008",
               alt_name: "deeplearning.ai",
-              color_code: "#00000099",
+              color_code: "#fafafa",
             },
             {
               title:
@@ -719,15 +719,6 @@
               color_code: "#f9fafa",
             },
             {
-              title: "Google Analytics for Beginners",
-              subtitle: "- Google Analytics",
-              logo_path: "google_logo.png",
-              certificate_link:
-                "https://analytics.google.com/analytics/academy/certificate/vx-OT3h-TB2Z5tLlMuPLlg",
-              alt_name: "Google",
-              color_code: "#0C9D5899",
-            },
-            {
               title: "Programming Foundations with JavaScript, HTML and CSS",
               subtitle: "- Susan H. Rodger",
               logo_path: "duke.jpeg",
@@ -735,6 +726,15 @@
                 "https://coursera.org/share/5f1598dab58d2a87c77eea142a67b546",
               alt_name: "GCP",
               color_code: "#02529B",
+            },
+            {
+              title: "Google Analytics for Beginners",
+              subtitle: "- Google Analytics",
+              logo_path: "google_logo.png",
+              certificate_link:
+                "https://analytics.google.com/analytics/academy/certificate/vx-OT3h-TB2Z5tLlMuPLlg",
+              alt_name: "Google",
+              color_code: "#0C9D5899",
             },
             {
               title: "Introduction to Deep Learning in Python",
@@ -918,28 +918,13 @@
         S = "Projects",
         I =
           "My projects makes use of vast variety of latest technology tools. In my opinion, coding and analytics are the most empowering skills you can learn. Because it provides the ability to create anything that comes to mind with only a computer.",
-        B = {
-          contactSection: {
-            title: "Contact Me",
-            profile_image_path: "njw.png",
-            description:
-              "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Full Stack Development, Business, Finance, ML and AI.",
-          },
-          addressSection: {
-            title: "Contact",
-            subtitle: "Njaal.Wiik@gmail.com",
-            avatar_image_path: "address_image.svg",
-            location_map_link:
-              "https://www.google.no/maps/place/Oslo/@59.8939021,10.5049442,10z/data=!3m1!4b1!4m5!3m4!1s0x46416e61f267f039:0x7e92605fd3231e9a!8m2!3d59.9138688!4d10.7522454",
-          },
-        },
-        Q = function (e, t) {
+        B = function (e, t) {
           e.target.style.backgroundColor = t;
         },
-        H = function (e) {
+        Q = function (e) {
           e.target.style.backgroundColor = "transparent";
         },
-        D = (function (e) {
+        H = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
           function a() {
@@ -1011,10 +996,10 @@
                                 activeStyle: { fontWeight: "bold" },
                                 style: { color: e.text },
                                 onMouseEnter: function (t) {
-                                  return Q(t, e.highlight);
+                                  return B(t, e.highlight);
                                 },
                                 onMouseOut: function (e) {
-                                  return H(e);
+                                  return Q(e);
                                 },
                               },
                               "Home"
@@ -1031,10 +1016,10 @@
                                 activeStyle: { fontWeight: "bold" },
                                 style: { color: e.text },
                                 onMouseEnter: function (t) {
-                                  return Q(t, e.highlight);
+                                  return B(t, e.highlight);
                                 },
                                 onMouseOut: function (e) {
-                                  return H(e);
+                                  return Q(e);
                                 },
                               },
                               "Education"
@@ -1051,10 +1036,10 @@
                                 activeStyle: { fontWeight: "bold" },
                                 style: { color: e.text },
                                 onMouseEnter: function (t) {
-                                  return Q(t, e.highlight);
+                                  return B(t, e.highlight);
                                 },
                                 onMouseOut: function (e) {
-                                  return H(e);
+                                  return Q(e);
                                 },
                               },
                               "Experience"
@@ -1071,10 +1056,10 @@
                                 activeStyle: { fontWeight: "bold" },
                                 style: { color: e.text },
                                 onMouseEnter: function (t) {
-                                  return Q(t, e.highlight);
+                                  return B(t, e.highlight);
                                 },
                                 onMouseOut: function (e) {
-                                  return H(e);
+                                  return Q(e);
                                 },
                               },
                               "Projects"
@@ -1091,10 +1076,10 @@
                                 activeStyle: { fontWeight: "bold" },
                                 style: { color: e.text },
                                 onMouseEnter: function (t) {
-                                  return Q(t, e.highlight);
+                                  return B(t, e.highlight);
                                 },
                                 onMouseOut: function (e) {
-                                  return H(e);
+                                  return Q(e);
                                 },
                               },
                               "Contact Me"
@@ -1110,23 +1095,23 @@
             a
           );
         })(l.Component),
-        F = (a(89), a(33)),
-        U = (a(90), a(25));
-      function z() {
-        var e = Object(F.a)([
+        D = (a(89), a(33)),
+        F = (a(90), a(25));
+      function U() {
+        var e = Object(D.a)([
           "\n  i {\n    background-color: ",
           ";\n  }\n  &:hover i {\n    background-color: ",
           ";\n    transition: 0.3s ease-in;\n  }\n",
         ]);
         return (
-          (z = function () {
+          (U = function () {
             return e;
           }),
           e
         );
       }
-      var L = U.c.span(
-        z(),
+      var L = F.c.span(
+        U(),
         function (e) {
           return e.backgroundColor;
         },
@@ -1134,7 +1119,7 @@
           return e.theme.text;
         }
       );
-      function T(e) {
+      function z(e) {
         return n.a.createElement(
           "div",
           { className: "social-media-div" },
@@ -1159,7 +1144,7 @@
         );
       }
       a(92);
-      function J(e) {
+      function T(e) {
         var t = e.text,
           a = e.className,
           l = e.href,
@@ -1196,7 +1181,7 @@
           )
         );
       }
-      var R = (function (e) {
+      var J = (function (e) {
         Object(f.a)(a, e);
         var t = Object(d.a)(a);
         function a() {
@@ -1613,7 +1598,7 @@
           a
         );
       })(l.Component);
-      function G(e) {
+      function R(e) {
         var t = e.theme;
         return n.a.createElement(
           E.Fade,
@@ -1653,11 +1638,11 @@
                     },
                     w
                   ),
-                  n.a.createElement(T, { theme: t }),
+                  n.a.createElement(z, { theme: t }),
                   n.a.createElement(
                     "div",
                     { className: "portfolio-repo-btn-div" },
-                    n.a.createElement(J, {
+                    n.a.createElement(T, {
                       text: "\u2b50 Star Me On Github",
                       newTab: !0,
                       href: v,
@@ -1670,16 +1655,16 @@
               n.a.createElement(
                 "div",
                 { className: "greeting-image-div" },
-                n.a.createElement(R, { theme: t })
+                n.a.createElement(J, { theme: t })
               )
             )
           )
         );
       }
       a(52), a(93);
-      var V = a(184),
-        W = a(186),
-        Y = (function (e) {
+      var G = a(184),
+        V = a(186),
+        W = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
           function a() {
@@ -1701,12 +1686,12 @@
                         { className: "dev-icons" },
                         this.props.logos.map(function (e) {
                           return n.a.createElement(
-                            V.a,
+                            G.a,
                             {
                               key: e.skillName,
                               placement: "top",
                               overlay: n.a.createElement(
-                                W.a,
+                                V.a,
                                 { id: "tooltip-top" },
                                 n.a.createElement("strong", null, e.skillName)
                               ),
@@ -1735,7 +1720,7 @@
             a
           );
         })(n.a.Component),
-        X = (function (e) {
+        Y = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
           function a() {
@@ -2123,7 +2108,7 @@
             a
           );
         })(l.Component),
-        q = (function (e) {
+        X = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
           function a() {
@@ -2434,7 +2419,7 @@
             a
           );
         })(l.Component),
-        P = (function (e) {
+        q = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
           function a() {
@@ -2808,7 +2793,7 @@
             a
           );
         })(l.Component),
-        K = (function (e) {
+        P = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
           function a() {
@@ -3980,16 +3965,16 @@
             a
           );
         })(l.Component);
-      function _(e) {
+      function K(e) {
         return "DataScienceImg" === e.fileName
-          ? n.a.createElement(X, { theme: e.theme })
+          ? n.a.createElement(Y, { theme: e.theme })
           : "FullStackImg" === e.fileName
-          ? n.a.createElement(q, { theme: e.theme })
+          ? n.a.createElement(X, { theme: e.theme })
           : "CloudInfraImg" === e.fileName
-          ? n.a.createElement(P, { theme: e.theme })
-          : n.a.createElement(K, { theme: e.theme });
+          ? n.a.createElement(q, { theme: e.theme })
+          : n.a.createElement(P, { theme: e.theme });
       }
-      var $ = (function (e) {
+      var _ = (function (e) {
         Object(f.a)(a, e);
         var t = Object(d.a)(a);
         function a() {
@@ -4014,7 +3999,7 @@
                         n.a.createElement(
                           "div",
                           { className: "skills-image-div" },
-                          n.a.createElement(_, {
+                          n.a.createElement(K, {
                             fileName: t.fileName,
                             theme: e,
                           })
@@ -4038,7 +4023,7 @@
                         n.a.createElement(
                           E.Fade,
                           { right: !0, duration: 1500 },
-                          n.a.createElement(Y, { logos: t.softwareSkills })
+                          n.a.createElement(W, { logos: t.softwareSkills })
                         ),
                         n.a.createElement(
                           E.Fade,
@@ -4068,7 +4053,7 @@
           a
         );
       })(l.Component);
-      function ee(e) {
+      function $(e) {
         var t = e.theme;
         return n.a.createElement(
           "div",
@@ -4086,11 +4071,11 @@
               )
             )
           ),
-          n.a.createElement($, { theme: t })
+          n.a.createElement(_, { theme: t })
         );
       }
       a(95);
-      function te(e) {
+      function ee(e) {
         return n.a.createElement(
           "div",
           { className: "footer-div" },
@@ -4111,7 +4096,7 @@
         );
       }
       a(96);
-      function ae(e) {
+      function te(e) {
         var t = e.theme;
         window.onscroll = function () {
           document.body.scrollTop > 30 ||
@@ -4159,7 +4144,7 @@
           })
         );
       }
-      var le = (function (e) {
+      var ae = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
           function a() {
@@ -4175,11 +4160,11 @@
                     n.a.createElement(
                       "div",
                       null,
-                      n.a.createElement(D, { theme: this.props.theme }),
-                      n.a.createElement(G, { theme: this.props.theme }),
+                      n.a.createElement(H, { theme: this.props.theme }),
+                      n.a.createElement(R, { theme: this.props.theme }),
+                      n.a.createElement($, { theme: this.props.theme }),
                       n.a.createElement(ee, { theme: this.props.theme }),
-                      n.a.createElement(te, { theme: this.props.theme }),
-                      n.a.createElement(ae, { theme: this.props.theme })
+                      n.a.createElement(te, { theme: this.props.theme })
                     )
                   );
                 },
@@ -4188,7 +4173,7 @@
             a
           );
         })(l.Component),
-        ne =
+        le =
           (a(97),
           a(98),
           (function (e) {
@@ -4315,7 +4300,7 @@
               l
             );
           })(l.Component)),
-        re = (function (e) {
+        ne = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
           function a() {
@@ -4350,7 +4335,7 @@
                       "div",
                       { className: "educations-body-div" },
                       Z.degrees.map(function (t) {
-                        return n.a.createElement(ne, { degree: t, theme: e });
+                        return n.a.createElement(le, { degree: t, theme: e });
                       })
                     )
                   );
@@ -4360,7 +4345,7 @@
             a
           );
         })(l.Component),
-        ce =
+        re =
           (a(159),
           a(160),
           (function (e) {
@@ -4449,7 +4434,7 @@
               l
             );
           })(l.Component)),
-        ie = (function (e) {
+        ce = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
           function a() {
@@ -4484,7 +4469,7 @@
                       "div",
                       { className: "certs-body-div" },
                       O.certifications.map(function (t) {
-                        return n.a.createElement(ce, {
+                        return n.a.createElement(re, {
                           certificate: t,
                           theme: e,
                         });
@@ -4497,7 +4482,7 @@
             a
           );
         })(l.Component),
-        oe =
+        ie =
           (a(161),
           (function (e) {
             Object(f.a)(a, e);
@@ -4518,13 +4503,13 @@
                         { className: "dev-icons" },
                         this.props.logos.map(function (e) {
                           return n.a.createElement(
-                            V.a,
+                            G.a,
                             {
                               key: e.siteName,
                               placement: "top",
                               style: { marginBottom: "5px" },
                               overlay: n.a.createElement(
-                                W.a,
+                                V.a,
                                 { id: "tooltip-top" },
                                 n.a.createElement("strong", null, e.siteName)
                               ),
@@ -4560,7 +4545,7 @@
               a
             );
           })(n.a.Component)),
-        se = (function (e) {
+        oe = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
           function a() {
@@ -4889,7 +4874,7 @@
             a
           );
         })(l.Component),
-        Ae =
+        se =
           (a(162),
           (function (e) {
             Object(f.a)(a, e);
@@ -4906,7 +4891,7 @@
                     return n.a.createElement(
                       "div",
                       { className: "education-main" },
-                      n.a.createElement(D, { theme: this.props.theme }),
+                      n.a.createElement(H, { theme: this.props.theme }),
                       n.a.createElement(
                         "div",
                         { className: "basic-education" },
@@ -4919,7 +4904,7 @@
                             n.a.createElement(
                               "div",
                               { className: "heading-img-div" },
-                              n.a.createElement(se, { theme: e })
+                              n.a.createElement(oe, { theme: e })
                             ),
                             n.a.createElement(
                               "div",
@@ -4940,17 +4925,17 @@
                                 },
                                 "Basic Qualification and Certifcations"
                               ),
-                              n.a.createElement(oe, {
+                              n.a.createElement(ie, {
                                 logos: N.competitiveSites,
                               })
                             )
                           )
                         ),
-                        n.a.createElement(re, { theme: this.props.theme }),
-                        n.a.createElement(ie, { theme: this.props.theme })
+                        n.a.createElement(ne, { theme: this.props.theme }),
+                        n.a.createElement(ce, { theme: this.props.theme })
                       ),
-                      n.a.createElement(te, { theme: this.props.theme }),
-                      n.a.createElement(ae, { theme: this.props.theme })
+                      n.a.createElement(ee, { theme: this.props.theme }),
+                      n.a.createElement(te, { theme: this.props.theme })
                     );
                   },
                 },
@@ -4958,7 +4943,7 @@
               a
             );
           })(l.Component)),
-        me =
+        Ae =
           (a(163),
           (function (e) {
             Object(f.a)(l, e);
@@ -5059,9 +5044,9 @@
               l
             );
           })(l.Component)),
-        he = (a(164), a(187)),
-        fe = a(183),
-        de = (function (e) {
+        me = (a(164), a(187)),
+        he = a(183),
+        fe = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
           function a() {
@@ -5077,7 +5062,7 @@
                     "div",
                     { className: "experience-accord" },
                     n.a.createElement(
-                      he.a,
+                      me.a,
                       {
                         onChange: function (e) {
                           var t = e.expanded;
@@ -5086,14 +5071,14 @@
                       },
                       this.props.sections.map(function (t) {
                         return n.a.createElement(
-                          fe.a,
+                          he.a,
                           {
                             className: "accord-panel",
                             title: t.title,
                             key: t.title,
                           },
                           t.experiences.map(function (t) {
-                            return n.a.createElement(me, {
+                            return n.a.createElement(Ae, {
                               experience: t,
                               theme: e,
                             });
@@ -5108,7 +5093,7 @@
             a
           );
         })(l.Component),
-        pe =
+        de =
           (a(165),
           (function (e) {
             Object(f.a)(a, e);
@@ -5558,7 +5543,7 @@
               a
             );
           })(l.Component)),
-        ge = (function (e) {
+        pe = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
           function a() {
@@ -5573,7 +5558,7 @@
                   return n.a.createElement(
                     "div",
                     { className: "experience-main" },
-                    n.a.createElement(D, { theme: e }),
+                    n.a.createElement(H, { theme: e }),
                     n.a.createElement(
                       "div",
                       { className: "basic-experience" },
@@ -5586,7 +5571,7 @@
                           n.a.createElement(
                             "div",
                             { className: "experience-heading-img-div" },
-                            n.a.createElement(pe, { theme: e })
+                            n.a.createElement(de, { theme: e })
                           ),
                           n.a.createElement(
                             "div",
@@ -5620,12 +5605,12 @@
                         )
                       )
                     ),
-                    n.a.createElement(de, { sections: j.sections, theme: e }),
-                    n.a.createElement(te, {
+                    n.a.createElement(fe, { sections: j.sections, theme: e }),
+                    n.a.createElement(ee, {
                       theme: this.props.theme,
                       onToggle: this.props.onToggle,
                     }),
-                    n.a.createElement(ae, { theme: this.props.theme })
+                    n.a.createElement(te, { theme: this.props.theme })
                   );
                 },
               },
@@ -5633,8 +5618,15 @@
             a
           );
         })(l.Component),
-        Ee = (a(166), B.contactSection),
-        ye = (function (e) {
+        ge =
+          (a(166),
+          {
+            title: "Contact Me",
+            profile_image_path: "njw.png",
+            description:
+              "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Full Stack Development, Business, Finance, ML and AI.",
+          }),
+        Ee = (function (e) {
           Object(f.a)(l, e);
           var t = Object(d.a)(l);
           function l() {
@@ -5649,7 +5641,7 @@
                   return n.a.createElement(
                     "div",
                     { className: "contact-main" },
-                    n.a.createElement(D, { theme: e }),
+                    n.a.createElement(H, { theme: e }),
                     n.a.createElement(
                       "div",
                       { className: "basic-contact" },
@@ -5663,7 +5655,7 @@
                             "div",
                             { className: "contact-heading-img-div" },
                             n.a.createElement("img", {
-                              src: a(32)("./".concat(Ee.profile_image_path)),
+                              src: a(32)("./".concat(ge.profile_image_path)),
                               alt: "",
                             })
                           ),
@@ -5676,7 +5668,7 @@
                                 className: "contact-heading-text",
                                 style: { color: e.text },
                               },
-                              Ee.title
+                              ge.title
                             ),
                             n.a.createElement(
                               "p",
@@ -5685,13 +5677,13 @@
                                   "contact-header-detail-text subTitle",
                                 style: { color: e.secondaryText },
                               },
-                              Ee.description
+                              ge.description
                             ),
-                            n.a.createElement(T, { theme: e }),
+                            n.a.createElement(z, { theme: e }),
                             n.a.createElement(
                               "div",
                               { className: "resume-btn-div" },
-                              n.a.createElement(J, {
+                              n.a.createElement(T, {
                                 text: "See My Resume",
                                 newTab: !0,
                                 href: M,
@@ -5702,11 +5694,11 @@
                         )
                       )
                     ),
-                    n.a.createElement(te, {
+                    n.a.createElement(ee, {
                       theme: this.props.theme,
                       onToggle: this.props.onToggle,
                     }),
-                    n.a.createElement(ae, { theme: this.props.theme })
+                    n.a.createElement(te, { theme: this.props.theme })
                   );
                 },
               },
@@ -5714,7 +5706,7 @@
             l
           );
         })(l.Component),
-        ue =
+        ye =
           (a(167),
           (function (e) {
             Object(f.a)(a, e);
@@ -5738,12 +5730,12 @@
                           { className: "dev-icons-languages" },
                           this.props.logos.map(function (e) {
                             return n.a.createElement(
-                              V.a,
+                              G.a,
                               {
                                 key: e.name,
                                 placement: "top",
                                 overlay: n.a.createElement(
-                                  W.a,
+                                  V.a,
                                   { id: "tooltip-top" },
                                   n.a.createElement("strong", null, e.name)
                                 ),
@@ -5772,7 +5764,7 @@
             );
           })(l.Component));
       a(168);
-      function be(e) {
+      function ue(e) {
         var t = e.repo,
           a = e.theme;
         return n.a.createElement(
@@ -5834,7 +5826,7 @@
                   "Created on ",
                   t.createdAt.split("T")[0]
                 ),
-                n.a.createElement(ue, {
+                n.a.createElement(ye, {
                   className: "repo-languages",
                   logos: t.languages,
                 })
@@ -5843,8 +5835,8 @@
           )
         );
       }
-      var xe = a(59),
-        we =
+      var be = a(59),
+        xe =
           (a(169),
           (function (e) {
             Object(f.a)(a, e);
@@ -6543,7 +6535,7 @@
               a
             );
           })(l.Component)),
-        Me = (function (e) {
+        we = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
           function a() {
@@ -6558,7 +6550,7 @@
                   return n.a.createElement(
                     "div",
                     { className: "projects-main" },
-                    n.a.createElement(D, { theme: e }),
+                    n.a.createElement(H, { theme: e }),
                     n.a.createElement(
                       "div",
                       { className: "basic-projects" },
@@ -6571,7 +6563,7 @@
                           n.a.createElement(
                             "div",
                             { className: "projects-heading-img-div" },
-                            n.a.createElement(we, { theme: e })
+                            n.a.createElement(xe, { theme: e })
                           ),
                           n.a.createElement(
                             "div",
@@ -6600,22 +6592,22 @@
                     n.a.createElement(
                       "div",
                       { className: "repo-cards-div-main" },
-                      xe.data.map(function (t) {
-                        return n.a.createElement(be, { repo: t, theme: e });
+                      be.data.map(function (t) {
+                        return n.a.createElement(ue, { repo: t, theme: e });
                       })
                     ),
-                    n.a.createElement(J, {
+                    n.a.createElement(T, {
                       text: "More Projects",
                       className: "project-button",
                       href: "https://github.com/njaalwiik",
                       newTab: !0,
                       theme: e,
                     }),
-                    n.a.createElement(te, {
+                    n.a.createElement(ee, {
                       theme: this.props.theme,
                       onToggle: this.props.onToggle,
                     }),
-                    n.a.createElement(ae, { theme: this.props.theme })
+                    n.a.createElement(te, { theme: this.props.theme })
                   );
                 },
               },
@@ -6623,7 +6615,7 @@
             a
           );
         })(l.Component),
-        ve = (function (e) {
+        Me = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
           function a() {
@@ -6652,7 +6644,7 @@
                             exact: !0,
                             render: function (t) {
                               return n.a.createElement(
-                                le,
+                                ae,
                                 Object.assign({}, t, { theme: e.props.theme })
                               );
                             },
@@ -6661,7 +6653,7 @@
                             path: "/home",
                             render: function (t) {
                               return n.a.createElement(
-                                le,
+                                ae,
                                 Object.assign({}, t, { theme: e.props.theme })
                               );
                             },
@@ -6671,7 +6663,7 @@
                             exact: !0,
                             render: function (t) {
                               return n.a.createElement(
-                                ge,
+                                pe,
                                 Object.assign({}, t, { theme: e.props.theme })
                               );
                             },
@@ -6680,7 +6672,7 @@
                             path: "/education",
                             render: function (t) {
                               return n.a.createElement(
-                                Ae,
+                                se,
                                 Object.assign({}, t, { theme: e.props.theme })
                               );
                             },
@@ -6689,7 +6681,7 @@
                             path: "/contact",
                             render: function (t) {
                               return n.a.createElement(
-                                ye,
+                                Ee,
                                 Object.assign({}, t, { theme: e.props.theme })
                               );
                             },
@@ -6698,7 +6690,7 @@
                             path: "/projects",
                             render: function (t) {
                               return n.a.createElement(
-                                Me,
+                                we,
                                 Object.assign({}, t, { theme: e.props.theme })
                               );
                             },
@@ -6713,7 +6705,7 @@
             a
           );
         })(l.Component),
-        Ce = {
+        ve = {
           body: "#E5E5E5",
           text: "#14213d",
           highlight: "#ffffff",
@@ -6724,21 +6716,21 @@
           jacketColor: "#8d99ae",
           headerColor: "#fca31177",
         };
-      function ke() {
-        var e = Object(F.a)([
+      function Ce() {
+        var e = Object(D.a)([
           "\n  *,\n  *::after,\n  *::before {\n    box-sizing: border-box;\n  }\n\n  body {\n    align-items: center;\n    background: ",
           ";\n    color: ",
           ";\n    display: flex;\n    // flex-direction: column;\n    // justify-content: center;\n    // height: 100vh;\n    // margin: 0;\n    // padding: 0;\n    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n    transition: all 0.25s linear;\n  }",
         ]);
         return (
-          (ke = function () {
+          (Ce = function () {
             return e;
           }),
           e
         );
       }
-      var Ne = Object(U.b)(
-        ke(),
+      var ke = Object(F.b)(
+        Ce(),
         function (e) {
           return e.theme.body;
         },
@@ -6746,15 +6738,15 @@
           return e.theme.text;
         }
       );
-      var Ze = function () {
+      var Ne = function () {
         return n.a.createElement(
-          U.a,
-          { theme: Ce },
+          F.a,
+          { theme: ve },
           n.a.createElement(
             n.a.Fragment,
             null,
-            n.a.createElement(Ne, null),
-            n.a.createElement("div", null, n.a.createElement(ve, { theme: Ce }))
+            n.a.createElement(ke, null),
+            n.a.createElement("div", null, n.a.createElement(Me, { theme: ve }))
           )
         );
       };
@@ -6766,12 +6758,12 @@
           )
       );
       a(170);
-      var Oe = new A.a();
+      var Ze = new A.a();
       c.a.render(
         n.a.createElement(
           s.a,
-          { value: Oe },
-          n.a.createElement(i.a, { theme: o.a }, n.a.createElement(Ze, null))
+          { value: Ze },
+          n.a.createElement(i.a, { theme: o.a }, n.a.createElement(Ne, null))
         ),
         document.getElementById("root")
       ),
@@ -6783,4 +6775,4 @@
   ]),
   [[67, 1, 2]],
 ]);
-//# sourceMappingURL=main.d8dc4c6e.chunk.js.map
+//# sourceMappingURL=main.38cc9dc9.chunk.js.map
