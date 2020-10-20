@@ -381,13 +381,13 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Python for Everybody Specialization",
-      subtitle: "- Charles Russell Severance",
-      logo_path: "umich2.jpeg",
+      title: "MERN Stack Front To Back: Full Stack React, Redux & Node.js",
+      subtitle: "- Brad Traversy",
+      logo_path: "traversy.jpeg",
       certificate_link:
-        "https://coursera.org/share/8175456c2e9a2ca43f0167ca8110ae41",
-      alt_name: "University of Michigan",
-      color_code: "#03467B",
+        "https://www.udemy.com/certificate/UC-530b50ef-f6ee-44db-b122-bee84633f6d3/",
+      alt_name: "Traversy Media",
+      color_code: "#417EAA",
     },
     {
       title: "Deep Learning",
@@ -406,6 +406,15 @@ const certifications = {
         "https://coursera.org/share/23d5d0b1612edd61a3840f8091783527",
       alt_name: "Google",
       color_code: "#0C9D5899",
+    },
+    {
+      title: "Python for Everybody Specialization",
+      subtitle: "- Charles Russell Severance",
+      logo_path: "umich2.jpeg",
+      certificate_link:
+        "https://coursera.org/share/8175456c2e9a2ca43f0167ca8110ae41",
+      alt_name: "University of Michigan",
+      color_code: "#03467B",
     },
     {
       title: "Full Stack JavaScript",
