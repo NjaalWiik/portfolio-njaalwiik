@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    revision: "227d327aca7f6b1531644656df432950",
+    revision: "979d965f63a7f2e72f33e1c0665066d2",
     url: "./index.html",
   },
   {
-    revision: "d57e275fe90bed32d629",
+    revision: "91c29ec1145bd816a4b4",
     url: "./static/css/main.c8382f0c.chunk.css",
   },
   {
-    revision: "1faa638600bb0971936e",
-    url: "./static/js/2.c2f79131.chunk.js",
+    revision: "e888d40bb887b88b05f3",
+    url: "./static/js/2.58d08fa9.chunk.js",
   },
   {
-    revision: "d57e275fe90bed32d629",
-    url: "./static/js/main.8ef7b5ff.chunk.js",
+    revision: "91c29ec1145bd816a4b4",
+    url: "./static/js/main.d8dc4c6e.chunk.js",
   },
   {
     revision: "dfaa76a419d61eef0450",
@@ -294,6 +294,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     revision: "b48e86c9a956d3a3a32ca4a5ae05ddc7",
     url: "./static/media/talksCardBackAlt.b48e86c9.svg",
+  },
+  {
+    revision: "bd8efc6fbd9ec4ae63c0519a8ca9bbcb",
+    url: "./static/media/traversy.bd8efc6f.png",
   },
   {
     revision: "d7363bf7bd9d85e294107b3d5dd47e1a",

@@ -59,10 +59,11 @@
         "./stanford_logo.png": 151,
         "./talksCardBack.svg": 152,
         "./talksCardBackAlt.svg": 153,
-        "./treehouse.png": 154,
-        "./ui_ux_design.svg": 155,
-        "./umich.png": 156,
-        "./umich2.jpeg": 157,
+        "./traversy.png": 154,
+        "./treehouse.png": 155,
+        "./ui_ux_design.svg": 156,
+        "./umich.png": 157,
+        "./umich2.jpeg": 158,
       };
       function n(e) {
         var t = r(e);
@@ -121,7 +122,7 @@
     ,
     ,
     function (e, t, a) {
-      e.exports = a(171);
+      e.exports = a(172);
     },
     ,
     ,
@@ -329,6 +330,9 @@
       e.exports = a.p + "static/media/talksCardBackAlt.b48e86c9.svg";
     },
     function (e, t, a) {
+      e.exports = a.p + "static/media/traversy.bd8efc6f.png";
+    },
+    function (e, t, a) {
       e.exports = a.p + "static/media/treehouse.d7363bf7.png";
     },
     function (e, t, a) {
@@ -362,8 +366,8 @@
         n = a.n(l),
         r = a(17),
         c = a.n(r),
-        i = a(184),
-        o = a(172),
+        i = a(185),
+        o = a(173),
         s = a(23),
         A = a(61),
         m = (a(72), a(73), a(2)),
@@ -668,13 +672,14 @@
         O = {
           certifications: [
             {
-              title: "Python for Everybody Specialization",
-              subtitle: "- Charles Russell Severance",
-              logo_path: "umich2.jpeg",
+              title:
+                "MERN Stack Front To Back: Full Stack React, Redux & Node.js",
+              subtitle: "- Brad Traversy",
+              logo_path: "traversy.jpeg",
               certificate_link:
-                "https://coursera.org/share/8175456c2e9a2ca43f0167ca8110ae41",
-              alt_name: "University of Michigan",
-              color_code: "#03467B",
+                "https://www.udemy.com/certificate/UC-530b50ef-f6ee-44db-b122-bee84633f6d3/",
+              alt_name: "Traversy Media",
+              color_code: "#417EAA",
             },
             {
               title: "Deep Learning",
@@ -694,6 +699,15 @@
                 "https://coursera.org/share/23d5d0b1612edd61a3840f8091783527",
               alt_name: "Google",
               color_code: "#0C9D5899",
+            },
+            {
+              title: "Python for Everybody Specialization",
+              subtitle: "- Charles Russell Severance",
+              logo_path: "umich2.jpeg",
+              certificate_link:
+                "https://coursera.org/share/8175456c2e9a2ca43f0167ca8110ae41",
+              alt_name: "University of Michigan",
+              color_code: "#03467B",
             },
             {
               title: "Full Stack JavaScript",
@@ -1663,8 +1677,8 @@
         );
       }
       a(52), a(93);
-      var V = a(183),
-        W = a(185),
+      var V = a(184),
+        W = a(186),
         Y = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
@@ -4347,8 +4361,8 @@
           );
         })(l.Component),
         ce =
-          (a(158),
-          a(159),
+          (a(159),
+          a(160),
           (function (e) {
             Object(f.a)(l, e);
             var t = Object(d.a)(l);
@@ -4484,7 +4498,7 @@
           );
         })(l.Component),
         oe =
-          (a(160),
+          (a(161),
           (function (e) {
             Object(f.a)(a, e);
             var t = Object(d.a)(a);
@@ -4876,7 +4890,7 @@
           );
         })(l.Component),
         Ae =
-          (a(161),
+          (a(162),
           (function (e) {
             Object(f.a)(a, e);
             var t = Object(d.a)(a);
@@ -4945,7 +4959,7 @@
             );
           })(l.Component)),
         me =
-          (a(162),
+          (a(163),
           (function (e) {
             Object(f.a)(l, e);
             var t = Object(d.a)(l);
@@ -5045,8 +5059,8 @@
               l
             );
           })(l.Component)),
-        he = (a(163), a(186)),
-        fe = a(182),
+        he = (a(164), a(187)),
+        fe = a(183),
         de = (function (e) {
           Object(f.a)(a, e);
           var t = Object(d.a)(a);
@@ -5095,7 +5109,7 @@
           );
         })(l.Component),
         pe =
-          (a(164),
+          (a(165),
           (function (e) {
             Object(f.a)(a, e);
             var t = Object(d.a)(a);
@@ -5619,7 +5633,7 @@
             a
           );
         })(l.Component),
-        Ee = (a(165), B.contactSection),
+        Ee = (a(166), B.contactSection),
         ye = (function (e) {
           Object(f.a)(l, e);
           var t = Object(d.a)(l);
@@ -5701,7 +5715,7 @@
           );
         })(l.Component),
         ue =
-          (a(166),
+          (a(167),
           (function (e) {
             Object(f.a)(a, e);
             var t = Object(d.a)(a);
@@ -5757,7 +5771,7 @@
               a
             );
           })(l.Component));
-      a(167);
+      a(168);
       function be(e) {
         var t = e.repo,
           a = e.theme;
@@ -5831,7 +5845,7 @@
       }
       var xe = a(59),
         we =
-          (a(168),
+          (a(169),
           (function (e) {
             Object(f.a)(a, e);
             var t = Object(d.a)(a);
@@ -6751,7 +6765,7 @@
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
-      a(169);
+      a(170);
       var Oe = new A.a();
       c.a.render(
         n.a.createElement(
@@ -6769,4 +6783,4 @@
   ]),
   [[67, 1, 2]],
 ]);
-//# sourceMappingURL=main.8ef7b5ff.chunk.js.map
+//# sourceMappingURL=main.d8dc4c6e.chunk.js.map
