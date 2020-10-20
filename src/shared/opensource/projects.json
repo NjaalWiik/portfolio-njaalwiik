@@ -108,9 +108,9 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMDMzMzM3MTA=",
-      "name": "teting-jest-basics",
+      "name": "testing-jest-basics",
       "createdAt": "2020-10-12T08:55:58Z",
-      "url": "https://github.com/NjaalWiik/teting-jest-basics",
+      "url": "https://github.com/NjaalWiik/testing-jest-basics",
       "description": "A repo to practice basic synchronous and asynchronous testing with Jest.",
       "isFork": false,
       "languages": [
