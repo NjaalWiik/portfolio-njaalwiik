@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    revision: "6fbf17e5983e00d6c7c1e4bbdf61bb0c",
+    revision: "434bf6f19c7db943ebbd0895f0371d37",
     url: "./index.html",
   },
   {
-    revision: "453197bbaac4f8cefbd7",
+    revision: "0de8848f2141139d1439",
     url: "./static/css/main.c8382f0c.chunk.css",
   },
   {
-    revision: "e888d40bb887b88b05f3",
-    url: "./static/js/2.58d08fa9.chunk.js",
+    revision: "8380d6edac796c7b955e",
+    url: "./static/js/2.db6c000d.chunk.js",
   },
   {
-    revision: "453197bbaac4f8cefbd7",
-    url: "./static/js/main.8900b97f.chunk.js",
+    revision: "0de8848f2141139d1439",
+    url: "./static/js/main.af6dbb42.chunk.js",
   },
   {
     revision: "dfaa76a419d61eef0450",
@@ -248,12 +248,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     url: "./static/media/manOnTable.52be3144.svg",
   },
   {
-    revision: "db6c1c0dddd4c868e00a3cffa1078e49",
-    url: "./static/media/muffito_logo.db6c1c0d.png",
-  },
-  {
-    revision: "e4f9bee63635026be8ba62d3db7095ce",
-    url: "./static/media/njw.e4f9bee6.png",
+    revision: "d235d5a7076e18ec4db1287288b35402",
+    url: "./static/media/njw.d235d5a7.png",
   },
   {
     revision: "cd7077f7a08bffdb11e13093424e13fd",
