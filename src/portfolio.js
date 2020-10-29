@@ -552,7 +552,7 @@ const experience = {
           duration: "Aug 2017 - May 2020",
           location: "Oslo, Norway",
           description:
-            "Presenter for BI. Doing lectures. pitches and sales talks for potential customers. Followed up prospects with a 10% conversion rate and managed social media channels.",
+            "Presenter for BI. Doing lectures, pitches and sales talks for potential customers. Followed up prospects with a 10% conversion rate and managed social media channels.",
           color: "#056CB4",
         },
       ],
